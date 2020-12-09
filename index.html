@@ -38,10 +38,11 @@
 
   <div class="hero-container">
     
-    <img class="mySlides" src="image/slide1.jpeg" style="width:100%;">
-    <img class="mySlides" src="image/slide2.jpeg" style="width:100%;">
-    <img class="mySlides" src="image/slide5.jpeg" style="width:100%;">
-    <img class="mySlides" src="image/slide3.jpeg" style="width:100%;">
+    <img class="mySlides" src="image/newSlide1.jpeg" style="width:100%;">
+    <img class="mySlides" src="image/newSlide2.jpeg" style="width:100%;">
+    <img class="mySlides" src="image/newSlide3.jpeg" style="width:100%;">
+    <img class="mySlides" src="image/newSlide4.jpeg" style="width:100%;">
+    <img class="mySlides" src="image/newSlide5.jpeg" style="width:100%;">
     <div style="width:100%">
       <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
       <a class="next" onclick="plusDivs(1)">&#10095;</a>
@@ -51,6 +52,7 @@
         <span class="dot" onclick="currentDiv(2)"></span>
         <span class="dot" onclick="currentDiv(3)"></span>
         <span class="dot" onclick="currentDiv(4)"></span>
+	<span class="dot" onclick="currentDiv(5)"></span>
       </div>
     </div>
   </div>
@@ -233,7 +235,7 @@ function carousel(n) {
 
 function autoSlide() {
   carousel(0)
-  setTimeout(autoSlide, 2000); // Change image every 2 seconds
+  setTimeout(autoSlide, 3000); // Change image every 2 seconds
 }
 
 //Navigation Bar Function
